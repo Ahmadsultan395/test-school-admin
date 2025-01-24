@@ -1,0 +1,157 @@
+.container {
+  width: 100%;
+  padding-left: 25px;
+  background-color: rgba(248, 245, 255, 1);
+}
+
+.cardRow {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Modal Start */
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  z-index: 50;
+  overflow: auto;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 50%;
+  margin: auto;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 14px 34px 14px 34px;
+}
+
+.modalRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.txtInviteUser {
+  font-size: 18px;
+  color: #434343;
+  font-weight: 500;
+}
+
+.inviteContainer {
+  padding: 10px;
+  border-radius: 4px;
+  margin: 15px 0px 8px 0px;
+  background-color: #efefef;
+}
+
+.txtTo {
+  font-size: 14px;
+  color: #434343;
+  font-weight: 400;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 5px; /* Border radius */
+  overflow: hidden;
+  background-color: #fff;
+  margin: 5px 0px 5px 0px;
+}
+
+.inputField {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.inputField::placeholder {
+  color: #BDBDBD; /* Set your desired color */
+}
+
+.btnDropDown {
+  width: 15%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff;
+  border: 1px solid #ccc; /* Gray border color */
+  border-radius: 5px; /* Border radius */
+  overflow: hidden;
+}
+
+.txtDropDown {
+  font-size: 12px;
+  color: #434343;
+  font-weight: 400;
+}
+
+.btnSendInvite {
+  width: 15%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8147E7;;
+  border: 1px solid #ccc; /* Gray border color */
+  border-radius: 5px; /* Border radius */
+  overflow: hidden;
+}
+
+.btnSendInvite:hover {
+  background-color: #a78bfa;
+}
+
+.txtSendInvite {
+  color: #fff;
+  font-size: 12px;
+}
+
+.menuContainer {
+  border-radius: 5px;
+  background-color: #fff;
+  position: absolute;
+  right: 400px;
+  top: 380px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 30.5px 10px 24px;
+}
+
+.menuItem:hover {
+  background: #F8F5FF;
+}
+
+.txtMenu {
+  color: var(--m-3-sys-light-on-primary, #000);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+}
+/* Modal End */
+

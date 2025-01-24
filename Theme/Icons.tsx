@@ -1,0 +1,82 @@
+export default {
+  upIcon: require("../public/assets/icons/auth/up.png"),
+  downIcon: require("../public/assets/icons/auth/down.png"),
+  uploadicon: require("../public/assets/icons/auth/uploadicon.png"),
+  mailIcon: require("../public/assets/icons/auth/Mail.png"),
+  padLock: require("../public/assets/icons/auth/padlock.png"),
+  waveHand: require("../public/assets/icons/auth/wavinghand.png"),
+  eye: require("../public/assets/icons/auth/view.png"),
+  editDark: require("../public/assets/icons/bx-edit-alt.png"),
+  hiddenEye: require("../public/assets/icons/auth/hidden.png"),
+  hiddenEyeLight: require("../public/assets/icons/bx-show.png"),
+
+  MenuIcon: require("../public/assets/icons/sideNav/menu.png"),
+  SearchIcon: require("../public/assets/icons/searchIcon.png"),
+  MessageIcon: require("../public/assets/icons/messageIcon.png"),
+  dropwDownIcon: require("../public/assets/icons/dropdownIcon.png"),
+  ThemeArrowRight: require("../public/assets/icons/ThemeArrowRight.png"),
+  NotificationIcon: require("../public/assets/icons/notificationIcon.png"),
+  //SideNav
+  UpgradeIcon: require("../public/assets/icons/sideNav/upgradeIcon.png"),
+  DashboardIcon: require("../public/assets/icons/sideNav/dasboardIcon.png"),
+  DashboardActiveIcon: require("../public/assets/icons/sideNav/dashboardActiveIcon.png"),
+  SchoolIcon: require("../public/assets/icons/sideNav/schoolIcon.png"),
+  SchoolActIcon: require("../public/assets/icons/sideNav/schoolActIcon.png"),
+  StudentIcon: require("../public/assets/icons/sideNav/studentIcon.png"),
+  StudentActIcon: require("../public/assets/icons/sideNav/studentActIcon.png"),
+  TeacherIcon: require("../public/assets/icons/sideNav/teacherIcon.png"),
+  TeacherActIcon: require("../public/assets/icons/sideNav/teacherActIcon.png"),
+  StaffIcon: require("../public/assets/icons/sideNav/staffIcon.png"),
+  StaffActIcon: require("../public/assets/icons/sideNav/staffActIcon.png"),
+  GaurdiansIcon: require("../public/assets/icons/sideNav/gaurdiansIcon.png"),
+  GuardianActIcon: require("../public/assets/icons/sideNav/guardianActIcon.png"),
+  AttendanceIcon: require("../public/assets/icons/sideNav/attendanceIcon.png"),
+  AttendanceActIcon: require("../public/assets/icons/sideNav/attendanceActIcon.png"),
+  ClassIcon: require("../public/assets/icons/sideNav/classIcon.png"),
+  ClassActIcon: require("../public/assets/icons/sideNav/classActIcon.png"),
+  SubjectIcon: require("../public/assets/icons/sideNav/subjectIcon.png"),
+  SubjectActIcon: require("../public/assets/icons/sideNav/subjectActIcon.png"),
+  FeeIcon: require("../public/assets/icons/sideNav/feeIcon.png"),
+  FeeActIcon: require("../public/assets/icons/sideNav/feeActIcon.png"),
+  NoticeIcon: require("../public/assets/icons/sideNav/noticeIcon.png"),
+  NoticeActIcon: require("../public/assets/icons/sideNav/noticeActIcon.png"),
+  SupportIcon: require("../public/assets/icons/sideNav/supportIcon.png"),
+  SupportActIcon: require("../public/assets/icons/sideNav/supportActIcon.png"),
+  //Dasboard
+  ClockIcon: require("../public/assets/icons/dashboard/clockIcon.png"),
+  RightThemeIcon: require("../public/assets/icons/dashboard/rightThemeIcon.png"),
+  ArrowDownIcon: require("../public/assets/icons/dashboard/arrowDown.png"),
+  MoreIcon: require("../public/assets/icons/dashboard/moreIcon.png"),
+
+  // student
+  FilterDown: require("../public/assets/icons/studentable/flterdown.png"),
+  Filterup: require("../public/assets/icons/studentable/flterup.png"),
+  errorcircle: require("../public/assets/icons/auth/errorcircle.png"),
+  PlusIcon: require("../public/assets/icons/dashboard/plusIcon.png"),
+  PlusIconDark: require("../public/assets/icons/addDark.png"),
+  SortArrow: require("../public/assets/icons/dashboard/sortArrow.png"),
+  //Menu
+  LogoutIcon: require("../public/assets/icons/menu/logoutIcon.png"),
+  LogoutActIcon: require("../public/assets/icons/menu/logoutActIcon.png"),
+  MyProfileIcon: require("../public/assets/icons/menu/myProfileIcon.png"),
+  MyProfileActIcon: require("../public/assets/icons/menu/myProfileActIcon.png"),
+  AccountSettingIcon: require("../public/assets/icons/menu/accountSettingIcon.png"),
+  AccountSettingActIcon: require("../public/assets/icons/menu/accountSettingActIcon.png"),
+
+  absentIcon: require("../public/assets/icons/attendaceTabel/absent.png"),
+  persentIcon: require("../public/assets/icons/attendaceTabel/persent.png"),
+  LeaveIcon: require("../public/assets/icons/attendaceTabel/leave.png"),
+
+  //Subscription
+  whiteStarIcon: require("../public/assets/icons/subscription/whiteStarIcon.png"),
+  themStarIcon: require("../public/assets/icons/subscription/themStarIcon.png"),
+  backArrowIcon: require("../public/assets/icons/subscription/backArrowIcon.png"),
+
+  //InvitePrompt
+  cancelIcon: require("../public/assets/icons/invite/cancelIcon.png"),
+  dropdownIcon: require("../public/assets/icons/invite/dropdown.png"),
+  //Edit
+  EditIcon: require("../public/assets/icons/dashboard/editIcon.png"),
+  //sort
+  SortIcon: require("../public/assets/icons/sort.png"),
+};

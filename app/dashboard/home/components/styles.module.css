@@ -1,0 +1,647 @@
+/* Dashbaord Card Start */
+.card {
+  width: 23%;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  margin: 10px 16px 8px 0px;
+  padding: 10px 20px 10px 20px;
+  justify-content: space-between;
+  border: 1px solid rgba(219, 219, 219, 1);
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+.txtTotalStudent {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.txtTotalCount {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Dashbaord Card End */
+
+/* Line Chart Card Start */
+
+.lineChart {
+  width: 47.3%;
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 8px 16px 10px 0px;
+  padding: 15px 15px 15px 15px;
+  justify-content: space-between;
+  border: 1px solid rgba(219, 219, 219, 1);
+}
+
+.chartRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnFilterRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.txtEarnings {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.clockBtn {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px 0px 0px;
+  background-color: rgba(243, 242, 248, 1);
+}
+
+.clockBtn:hover {
+  background-color: rgba(228, 226, 241, 1);
+}
+
+.timtBtn {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px 0px 0px;
+  padding: 5px 0px 0px 12px;
+  background-color: rgba(243, 242, 248, 1);
+}
+
+.timtBtn:hover {
+  background-color: rgba(228, 226, 241, 1);
+}
+
+.arrowRight {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px 0px 0px;
+  padding: 8px 0px 0px 12px;
+}
+
+.arrowRight:hover {
+  background-color: rgba(228, 226, 241, 1);
+}
+
+.selectedBtn {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px 0px 0px;
+  padding: 5px 0px 0px 12px;
+  background-color: #8147e7;
+}
+
+.selectedBtn:hover {
+  background-color: #a78bfa;
+}
+
+.txtSelection {
+  color: #fff;
+  font-size: 13.593px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.txtFilterSelection {
+  color: #54536e;
+  font-size: 13.593px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.arrowDownCirlce {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px 0px 0px;
+}
+
+.arrowDownCirlce:hover {
+  background-color: rgba(228, 226, 241, 1);
+}
+
+.arrowDown {
+  margin: 4px 0px 0px 4px;
+}
+
+.earningCounterRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.chartInfoRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px 0px 0px;
+}
+
+.earningDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 16px;
+  background-color: #417dfc;
+  margin: 2px 10px 0px 0px;
+}
+
+.earningGreenDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 16px;
+  background-color: #40997e;
+  margin: 2px 10px 0px 0px;
+}
+
+.earningRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.txtCollection {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.txtCollectionAmount {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.txtDate {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px 20px 0px 0px;
+}
+/* Line Chart Card End */
+
+/* Bar Chart Card Start */
+
+.barChart {
+  width: 23%;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 8px 16px 10px 0px;
+  padding: 15px 10px 15px 10px;
+  border: 1px solid rgba(219, 219, 219, 1);
+}
+
+.txtExpenses {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  margin: 0px 0px 0px 8px;
+}
+
+.moreIconCircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.moreIconCircle:hover {
+  background-color: rgba(228, 226, 241, 1);
+}
+
+.moreIcon {
+  margin: 2.3px 0px 0px 2.2px;
+}
+
+.barChartRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.barChartRowInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.txtMonthYear {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.txtMonthAmount {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 5px 0px 5px 0px;
+}
+
+.lightGreenProgress {
+  width: 100%;
+  height: 4px;
+  border-radius: 8px;
+  background-color: #40dfcd;
+}
+
+.lightBlueProgress {
+  width: 100%;
+  height: 4px;
+  border-radius: 8px;
+  background-color: #417dfc;
+}
+
+.lightOragneProgress {
+  width: 100%;
+  height: 4px;
+  border-radius: 8px;
+  background-color: #ffaa01;
+}
+
+/* Bar Chart Card End */
+
+/* Pie Chart Card Start */
+.doughnutChart {
+  width: 23%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 8px 16px 10px 0px;
+  padding: 15px 10px 15px 10px;
+  border: 1px solid rgba(219, 219, 219, 1);
+}
+
+.pieChartInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 13px;
+}
+
+.schoolInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -140px;
+}
+
+.txtTotlaStudent {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.totalStudent {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Pie Chart Card End */
+
+/* Calendar Card Start */
+
+.infoCard {
+  width: 31.2%;
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 8px 16px 10px 0px;
+  padding: 15px 15px 15px 15px;
+  justify-content: space-between;
+  border: 1px solid rgba(219, 219, 219, 1);
+}
+
+.calendarRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.txtCalendar {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0px 0px 0px 0px;
+}
+
+.plusBtn {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px 0px 0px;
+  padding: 12px 0px 0px 12px;
+  background-color: #8147e7;
+}
+
+.plusBtn:hover {
+  background-color: #a78bfa;
+}
+
+.calendarContainer {
+  border-width: 1px solid #fff;
+}
+
+
+/* Calendar Card End */
+
+/* Staff Card Start */
+
+.staffCard {
+  height: 370px;
+  width: 31.2%;
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 8px 16px 10px 0px;
+  padding: 15px 15px 15px 15px;
+  justify-content: space-between;
+  border: 1px solid rgba(219, 219, 219, 1);
+  overflow-y: auto;
+}
+
+.sortArrow {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.sortArrow:hover {
+  background-color: rgba(228, 226, 241, 1);
+}
+
+.sortArowIcoon {
+  margin: 5px;
+}
+
+.staffInfoCard {
+  gap: 10px;
+  padding: 5px;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  margin-top: 10px;
+}
+
+.staffProfileCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+
+.staffInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.staffName {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.staffDesignation {
+  color: #8a8a8a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.staffPresence {
+  color: #f93333;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Staff Card End */
+
+/* Invite Prompt Start */
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  z-index: 50;
+  overflow: auto;
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 50%;
+  margin: auto;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 14px 34px 14px 34px;
+}
+
+.modalRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.txtInviteUser {
+  font-size: 18px;
+  color: #434343;
+  font-weight: 500;
+}
+
+.inviteContainer {
+  padding: 10px;
+  border-radius: 4px;
+  margin: 15px 0px 8px 0px;
+  background-color: #efefef;
+}
+
+.txtTo {
+  font-size: 14px;
+  color: #434343;
+  font-weight: 400;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 5px; /* Border radius */
+  overflow: hidden;
+  background-color: #fff;
+  margin: 5px 0px 5px 0px;
+}
+
+.inputField {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.inputField::placeholder {
+  color: #BDBDBD; /* Set your desired color */
+}
+
+.btnDropDown {
+  width: 15%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff;
+  border: 1px solid #ccc; /* Gray border color */
+  border-radius: 5px; /* Border radius */
+  overflow: hidden;
+}
+
+.txtDropDown {
+  font-size: 12px;
+  color: #434343;
+  font-weight: 400;
+}
+
+.btnSendInvite {
+  width: 15%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8147E7;;
+  border: 1px solid #ccc; /* Gray border color */
+  border-radius: 5px; /* Border radius */
+  overflow: hidden;
+}
+
+.btnSendInvite:hover {
+  background-color: #a78bfa;
+}
+
+.txtSendInvite {
+  color: #fff;
+  font-size: 12px;
+}
+
+.menuContainer {
+  border-radius: 5px;
+  background-color: #fff;
+  position: absolute;
+  right: 400px;
+  top: 380px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 30.5px 10px 24px;
+}
+
+.menuItem:hover {
+  background: #F8F5FF;
+}
+
+.txtMenu {
+  color: var(--m-3-sys-light-on-primary, #000);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+}
+/* Invite Prompt End */

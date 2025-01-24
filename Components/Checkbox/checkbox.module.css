@@ -1,0 +1,39 @@
+/* checkbox.module.css */
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .checkbox {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #AB91FF;
+    border-radius: 1px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; /* Set the initial background color */
+  }
+  
+  .checked {
+    background-color: #9c88ff;
+    border: 0px solid #000;
+
+     /* Purple background color when checked */
+  }
+  
+  .checkmark {
+    color: #fff; /* Customize the checkmark color */
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .checkboxLabel {
+    font-size: 16px;
+    color:#434334;
+    font-weight: 400;
+  }
+  

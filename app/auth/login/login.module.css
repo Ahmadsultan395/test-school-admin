@@ -1,0 +1,196 @@
+/* Home.module.css */
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.leftColumn {
+  width: 50%;
+  padding: 40px;
+  background-color: #E1CDFF;
+  /* Purple background color */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 80%;
+  height: auto;
+}
+
+.companyDetails {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+
+.rightColumn {
+  width: 50%;
+  padding: 40px;
+  background-color: #fff;
+  /* White background color */
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  overflow: scroll;
+}
+
+.loginForm {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.button {
+  background: #9c88ff;
+  /* Purple background color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.forgotPasswordLink {
+  color: #9c88ff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.emailLabel {
+  color: #434343;
+  font-size: small;
+  margin-top: 12px;
+  margin-bottom: 8px;
+
+
+}
+
+.passwordLabel {
+  color: #434343;
+  font-size: small;
+  margin-top: 12px;
+  margin-bottom: 8px;
+
+}
+
+.helloWave {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #434343;
+
+}
+
+.handImage {
+  margin-left: 10px;
+}
+
+.subText {
+  font-size: 24px;
+  color: #BDBDBD;
+  font-weight: 400;
+}
+
+.loginTitle {
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+}
+
+.loginBtn {
+  width: 100%;
+  height: 56px;
+  border-radius: 5px;
+  background-color: #8147E7;
+  color: #fff;
+  margin-top: 20px;
+
+
+}
+
+.forgotDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 536px;
+  margin-top: 11px;
+}
+
+.createAcountDiv {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.span1 {
+  color: #999696;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.span2 {
+  color: #8147E7;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 5px;
+
+}
+
+.leftDivHeading {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.leftDivSubHeading {
+  font-weight: 500;
+  font-size: 16px;
+  color: #303030;
+}
+
+@media (max-width: 768px) {
+  .leftColumn {
+    display: none;
+  }
+
+  .rightColumn {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .rightColumn {
+    order: -1;
+  }
+}
+
+.topButtonsContainer {
+  width: 90%;
+  padding: 3px;
+  display: flex;
+  border-width: 2px;
+  border-color: #8F6DFF;
+  border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+/* components/FileUploadComponent.module.css */
+
+.fileUploadContainer {
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .customLabel {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+  
+  .customFileInput {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .uploadIcon {
+    margin-left: 10px;
+  }
+  
+  /* Add more styles as needed */
+  
