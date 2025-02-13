@@ -1,0 +1,315 @@
+/* Home.module.css */
+.container {
+    display: flex;
+    height: calc(100vh - 60px);
+     background-color: #fff;
+
+}
+.leftColumn{
+    width: 50%;
+    padding: 40px;
+    background-color: #E1CDFF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.logoContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.logo {
+    max-width: 80%;
+    height: auto;
+}
+.mainVector {
+    width:80%;
+    height: 100%;
+}
+.companyDetails {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.rightColumn {
+    width: 50%;
+    padding: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* overflow: scroll; */
+
+}
+
+.loginForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.allInputsDiv {
+    display: flex;
+    justify-content: space-between ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 0;
+    /* margin-left: -10px; */
+}
+
+.button {
+    background: #9c88ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.forgotPasswordLink {
+    color: #9c88ff;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.emailLabel {
+    color: #434343;
+    font-size: small;
+    width: 49%;
+    font-family: 'Inter', sans-serif;
+    margin-top: 12px;
+}
+.lables{
+     margin-bottom: 12px;
+    margin-top: 12px;
+}
+.dropdownLabel{
+    color: #434343;
+    font-size: small;
+    width: 45%;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.passwordLabel {
+    color: #434343;
+    font-size: small;
+    margin-bottom: 6px;
+    margin-top: 7px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    color: #434343;
+/* margin-left: 18px; */
+
+}
+
+.handImage {
+    margin-left: 10px;
+}
+
+.subText {
+    font-size: 20px;
+    color: #BDBDBD;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.loginTitle {
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.loginBtn {
+    width: 49%;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #8147E7;
+    color: #fff;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.loginBtn:hover {
+    background-color: #6832c5;
+    color: #fff;
+}
+
+.ResetBtn {
+    width: 49%;
+    height: 56px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #c0bebeee;
+    border: 1px solid #c0bebeee;
+}
+
+.ResetBtn:hover {
+    color: #7e7c7cee;
+    border: 1px solid #7e7c7cee;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.forgotDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.createAcountDiv {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.span1 {
+    color: #999696;
+    font: "inter";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.span2 {
+    color: #8147E7;
+    font: "inter";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-left: 5px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.leftDivHeading {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+.leftDivSubHeading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #303030;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+
+.customTextarea {
+    width: 560px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    resize: vertical;
+    margin-left: 13px;
+}
+
+.checkBoxDiv {
+    flex-direction: row;
+    display: flex;
+}
+
+.purpleLine {
+    background-color: #8147E7;
+    width: 100%;
+    height: 6px;
+    border-radius: 10px;
+
+}
+
+.grayLine {
+    background-color: #D9D9D9;
+    width: 267px;
+    height: 6px;
+    border-radius: 10px;
+  
+}
+
+.tabLine{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-left:18px; */
+    margin-bottom: 10px;
+
+}
+
+.pageTitle {
+    font-size: 16;
+    font-weight: 400;
+}
+
+
+/* media query for mobile */
+
+@media (max-width: 1370px) {
+    .mainVector {
+        width:60%;
+        height: 100%;
+    }
+    }
+    
+    @media (max-width: 1250px) {
+        .allInputsDiv {
+            flex-direction: column;
+        }
+        .emailLabel {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .leftColumn {
+            display: none;
+        }
+    
+        .rightColumn {
+            width: 100%;
+            padding: 20px;
+        }
+    
+        .rightColumn {
+            order: -1;
+        }
+       
+    }
+    
+    
+    

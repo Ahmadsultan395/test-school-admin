@@ -1,0 +1,79 @@
+.studentTable {
+    max-width: 1140px !important;
+    overflow: scroll;
+    align-items: center;
+    border-top: 1px solid #ddd;
+
+}
+
+.studentTable th,
+.studentTable td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    text-align: center;
+    font-size: 14;
+    white-space: nowrap;
+    /* Prevent line breaks within cells */
+}
+
+.studentTable th {
+    background-color: #fff;
+    font-size: small;
+    font-weight: 600;
+
+}
+
+.studentTable tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.studentTable tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.filterUp:hover {
+    width: fit-content;
+
+}
+
+.filterDown:hover {
+    width: fit-content;
+
+}
+
+.thDiv {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: center;
+
+}
+
+.iconDiv {
+    margin-left: 5px;
+}
+
+.iconDiv:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paginationButtons {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* .nameLink:hover {
+    color: #8147E7;
+    text-decoration: underline;
+    cursor: pointer;
+} */

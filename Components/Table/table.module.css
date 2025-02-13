@@ -1,0 +1,198 @@
+.studentTable {
+    overflow: scroll;
+    border: 1px solid #ddd; 
+    border-radius: 7px;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+}
+
+.tr, .th, .td {
+    padding: 8px;
+    text-align: flex-end;
+}
+.studentTable th,
+.studentTable td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    text-align: center;
+    font-size: 14;
+    white-space: nowrap;
+    /* Prevent line breaks within cells */
+}
+
+.studentTable th {
+    background-color: #fff;
+    font-size: small;
+    font-weight: 600;
+}
+
+.studentTable tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.studentTable tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.filterUp:hover {
+    width: fit-content;
+
+}
+
+.filterDown:hover {
+    width: fit-content;
+
+}
+
+.thDiv {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: center;
+
+}
+
+.iconDiv {
+    margin-left: 5px;
+}
+
+.iconDiv:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paginationButtons {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.nameLink:hover {
+    color: #8147E7;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.leftBtn {
+    font-size: 14px;
+}
+
+.rightBtn {
+    font-size: 14px;
+}
+
+.btns {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.pageCount {
+    font-size: 15px;
+    color: gray;
+}
+
+.paginationCountBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 110px;
+
+
+
+}
+
+.activeBtn {
+    background-color: #8147E7;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    border: 2px solid #8147E7;
+    cursor: pointer;
+
+
+
+}
+
+.unactiveBtn {
+    border: 2px solid #8147E7;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8147E7;
+    cursor: pointer;
+
+
+}
+
+.leftBtnDisable {
+    color: gray;
+    font-size: 14px;
+
+}
+
+.btnsDiv {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.th {
+    /* border: 2px solid; */
+}
+
+.thitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.upIcon {
+    max-width: 9px;
+    margin-bottom: 2px;
+}
+
+.downIcon {
+    max-width: 9px;
+}
+
+.upIcon:hover {
+    max-width: 9px;
+    margin-bottom: 2px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.downIcon:hover {
+    max-width: 9px;
+    border: 1px solid;
+    cursor: pointer;
+
+
+}
+.nameLink:hover {
+    color: #8147E7;
+    text-decoration: underline;
+    cursor: pointer;
+}

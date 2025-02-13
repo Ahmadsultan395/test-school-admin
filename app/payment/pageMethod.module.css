@@ -1,0 +1,372 @@
+/* Home.module.css */
+
+.container {
+  display: flex;
+}
+
+.loadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.leftColumn {
+  width: 50%;
+  padding: 40px;
+  background-color: #e1cdff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.logoContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logoImage {
+  align-self: center;
+}
+
+.logo {
+  max-width: 80%;
+  height: auto;
+}
+
+.paymentDetails {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  width: 75%;
+}
+
+.txtOrderSummary {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btnChangePlan {
+  display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #FFF;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.1px;
+}
+
+.planRow {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.paymentImg {
+  align-self: center;
+  margin-top: 50px;
+}
+
+.paymentHeader {
+  color: #303030;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 11px;
+}
+
+.paymentPlanRow {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.txtPaymentRow {
+  display: flex;
+  margin-left: 100px;
+  flex-direction: row;
+}
+
+.txtPayment {
+  color: #303030;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.txtPaymentPeriod {
+  color: rgba(48, 48, 48, 0.9);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.offerRow {
+  width: 70%;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+}
+
+.offers {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.txtOffers {
+  color: #3C3C3C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15.255px; /* 84.75% */
+  margin-left: 5px;
+}
+
+.rightColumn {
+  width: 50%;
+  padding: 40px;
+  background-color: #fff;
+  /* White background color */
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  overflow: scroll;
+}
+
+.backImage {
+  margin-right: 15px;
+}
+
+.loginForm {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.button {
+  background: #9c88ff;
+  /* Purple background color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.forgotPasswordLink {
+  color: #9c88ff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.emailLabel {
+  color: #434343;
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.cvcLablel {
+  color: #434343;
+  font-size: small;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+.passwordLabel {
+  color: #434343;
+  font-size: small;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.allInputsDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width:  600px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .allInputsDiv {
+      flex-direction: column;
+  }
+}
+
+.helloWave {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #434343;
+}
+
+.handImage {
+  margin-left: 10px;
+}
+
+.subText {
+  font-size: 24px;
+  color: #bdbdbd;
+  font-weight: 400;
+}
+
+.loginTitle {
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.1px;
+  margin-bottom: 10px;
+}
+
+.loginBtn {
+  width: 100%;
+  height: 56px;
+  border-radius: 5px;
+  background-color: #8147e7;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.txtDescription {
+  color: #303030;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 24px;
+}
+
+.receiptRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.totlaRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.txtInvoice {
+  color: #434343;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.invoicePayment {
+  color: #434343;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.totalLine {
+  width: "563px";
+  height: 2px;
+  background: rgba(191, 191, 191, 0.70);
+}
+
+.forgotDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 536px;
+  margin-top: 11px;
+  margin-bottom: 40px;
+}
+
+.createAcountDiv {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.span1 {
+  color: #999696;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.span2 {
+  color: #8147e7;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.leftDivHeading {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.leftDivSubHeading {
+  font-weight: 500;
+  font-size: 16px;
+  color: #303030;
+}
+
+
+@media (max-width: 768px) {
+  .leftColumn {
+    display: none;
+  }
+
+  .rightColumn {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .rightColumn {
+    order: -1;
+  }
+}

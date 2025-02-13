@@ -1,0 +1,357 @@
+.container {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.loadContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.logoImage {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.choosePlanRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40.18px;
+}
+
+.leftRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightRow {
+  display: flex;
+  width: 30%;
+  height: 56px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #dbdbdb;
+  margin-top: 30px;
+}
+
+.txtChoosePlan {
+  color: #434343;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.txtPlanDecription {
+  color: #303030;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.txtBilledPlan {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+}
+
+.subcriptionContainer {
+  display: flex;
+  align-content: center;
+  margin: 80px 20px 40px 20px;
+  justify-content: space-evenly;
+}
+
+.paymentPlanRow {
+  display: flex;
+  margin-left: 100px;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.card {
+  width: 28%;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.activeCard {
+  width: 28%;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  background-color: #8147e7;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.paymentHeader {
+  color: #303030;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 40px;
+  margin-bottom: 11px;
+}
+
+.activePaymenttHeader {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 40px;
+  margin-bottom: 11px;
+}
+
+.underLine {
+  width: 53px;
+  height: 4px;
+  flex-shrink: 0;
+  align-self: center;
+  background: #8147e7;
+  margin-bottom: 23px;
+  margin-left: 170px;
+}
+
+.activeUnderLine {
+  width: 53px;
+  height: 4px;
+  flex-shrink: 0;
+  align-self: center;
+  background: #fff;
+  margin-bottom: 23px;
+  margin-left: 170px;
+}
+
+.txtPaymentRow {
+  display: flex;
+  margin-left: 100px;
+  align-items: flex-end;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.txtPayment {
+  color: #303030;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.activeTxtPayment {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.txtPaymentPeriod {
+  color: rgba(48, 48, 48, 0.9);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.activeTxtPaymentPeriod {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.offers {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.txtOffers {
+  color: rgba(48, 48, 48, 0.9);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.activeTxtOffers {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.btnStartPayment {
+  display: flex;
+  width: 70%;
+  height: 56px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #8147e7;
+  color: #8147e7;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+  margin: 200px 0px 20px 60px;
+}
+
+.activeBtnStartPayment {
+  display: flex;
+  width: 70%;
+  height: 56px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+  margin: 200px 0px 20px 60px;
+}
+
+
+.btnSeconPayment {
+  display: flex;
+  width: 70%;
+  height: 56px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #8147e7;
+  color: #8147e7;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+  margin: 120px 0px 20px 60px;
+}
+
+.activeBtnSeconPayment {
+  display: flex;
+  width: 70%;
+  height: 56px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+  margin: 120px 0px 20px 60px;
+}
+
+.btnPayment {
+  display: flex;
+  width: 70%;
+  height: 56px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #8147e7;
+  color: #8147e7;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+  margin: 80px 0px 20px 60px;
+}
+
+.activeBtnPayment {
+  display: flex;
+  width: 70%;
+  height: 56px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: #8147e7;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+  margin: 80px 0px 20px 60px;
+}
+
+.backImage {
+  margin: 40px 0px 0px 20px;
+}

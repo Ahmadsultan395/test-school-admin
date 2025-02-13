@@ -1,0 +1,106 @@
+.mainContainer {
+    border: 1px solid #ddd;
+    width: calc(100% - 70px);
+    margin-left: 35px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.searchbar {
+    width: 27%;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid rgba(228, 226, 241, 1);
+}
+
+.input-field {
+    width: 90%;
+    outline: none;
+    background: transparent;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #ffffff;
+    border: none;
+}
+
+.input-field:hover {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.input-field:focus {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.inputs_row {
+    flex-direction: row;
+    display: flex;
+}
+
+.searchButton {
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    display: flex;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: rgba(129, 71, 231, 1);
+    color: #fff;
+
+}
+
+.addClassButton {
+        /* width: 12%; */
+        padding: 0.8rem 1.2rem;
+        /* height: 50px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #8147E7;;
+        border: 1px solid #ccc; /* Gray border color */
+        border-radius: 5px; /* Border radius */
+        overflow: hidden;
+        color: white;
+        margin-right: 35px
+}
+
+.searchButton:hover {
+    background-color: rgb(121, 66, 215);
+    cursor: pointer;
+}
+
+.allStudents{
+   font-weight: bold;
+
+}
+.directryPath{
+    margin-left: 35px;
+}
+.homePath{
+    color: #B1AFC8;
+    margin-right: 10px;
+    font-size: small;
+    font-weight: 500;
+}
+.studentPath{
+    color: #8147E7;
+    font-size: small;
+    font-weight: 500;
+
+
+}

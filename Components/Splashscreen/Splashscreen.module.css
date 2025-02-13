@@ -1,0 +1,34 @@
+/* components/SplashScreen.module.css */
+.logo {
+    width: 100px; /* Adjust the size of the logo as needed */
+    height: auto;
+}
+
+   .splashContainer {
+    position: relative;
+    height: 100vh; /* 100% of the viewport height */
+    background: url('../../public/assets/images/auth/Splash.png') center/cover no-repeat; /* Set your background image */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .details {
+    text-align: center;
+    color: #303030; /* Set your text color */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .logoImage{
+    margin-bottom: 20px;
+  }
+  .title1{
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .subTitle{
+    font-style: 20px;
+    font-weight: normal;
+  }

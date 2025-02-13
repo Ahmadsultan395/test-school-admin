@@ -1,0 +1,232 @@
+.row {
+  display: flex;
+  padding-left: 10px;
+  background-color: rgba(248, 245, 255, 1);
+}
+
+.searchbar {
+  width: 40%;
+  height: 40px;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid rgba(228, 226, 241, 1);
+}
+
+.inputField {
+  width: 95%;
+  outline: none;
+  background: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0.15px;
+  border: none;
+}
+
+.inputField:hover {
+  outline: none;
+  border: none;
+}
+
+.inputField:focus {
+  outline: none;
+  border: none;
+}
+
+.no-outline:focus {
+  outline: none;
+  background: transparent;
+}
+
+.notificationBox {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border: 1px solid rgba(228, 226, 241, 1);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 370px;
+  top: 10px;
+}
+
+.notificationBox:hover {
+  background-color: rgba(228, 226, 241, 1);
+}
+
+.messageBox {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border: 1px solid rgba(228, 226, 241, 1);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 320px;
+  top: 10px;
+}
+
+.messageBox:hover {
+  background-color: rgba(228, 226, 241, 1);
+}
+
+.profileContainerRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 80px;
+  top: 5px;
+}
+
+.profileImgContainer {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileInfo {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+.profileName {
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
+}
+
+.schoolName {
+  font-size: 10px;
+  font-weight: 400;
+  color: rgba(88, 88, 88, 1);
+}
+
+.dropDown {
+  /* width: 20px; */
+  height: 20px;
+  align-items: center;
+  justify-self: center;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.dropDown:hover {
+  background-color: rgba(228, 226, 241, 1);
+}
+
+.headerPage {
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(67, 67, 67, 1);
+}
+
+.pageRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 0px 5px 0px;
+}
+
+.txtHome {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(177, 175, 200, 1);
+}
+
+.themeArrowRight {
+  margin-left: 10px;
+}
+
+.txtSubHeading {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(129, 71, 231, 1);
+}
+
+.menuContainer {
+  border-radius: 5px;
+  background-color: #fff;
+  position: absolute;
+  right: 0px;
+  top: 58px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 30.5px 10px 24px;
+}
+
+.menuItem:hover {
+  background: #F8F5FF;
+}
+
+.txtMenu {
+  color: var(--m-3-sys-light-on-primary, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.1px;
+}
+
+.menuIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.txtMenu {
+  color: #787878;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  width: 150px;
+  margin-left: 15px;
+}
+
+.txtMenu:hover {
+  color: #8147E7
+}
+
+.btnUpgradePlan {
+  width: 90%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  color: #FA0018; 
+  border-radius: 5px;
+  border: 1px solid #FA0018;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+}
+
+.txtUpgradePlan {
+  margin-right: 10px; 
+}
