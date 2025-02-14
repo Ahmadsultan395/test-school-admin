@@ -4,7 +4,26 @@ import React, { useEffect, useState } from "react";
 import styles from "./StudentCard.module.css"; // Import your CSS module
 import Image from "next/image";
 import Images from "../../Theme/Images";
-const StudentCard: React.FC = ({item}:any) => {
+
+// Define a Student interface
+interface Student {
+  name: string;
+  rollNumber: string;
+  gender: "Male" | "Female";
+  dateOfBirth: string;
+  religion: string;
+  fatherOccupation: string;
+  email: string;
+  section: string;
+  studentBIO: string;
+  phone: string;
+}
+
+interface StudentCardProps {
+  item?: Student;  // Make item optional by adding `?`
+}
+
+const StudentCard: React.FC <StudentCardProps> = ({item}:any) => {
   return (
     <div className={styles.card}>
       <div className={styles.profileDataDiv}>

@@ -29,6 +29,13 @@ const AddStaff = (props: any) => {
     const [staffPicture, setStaffPicture] = useState(null);
     const { uploadImageToStorage } = useAuthentication();
     const [loading, setLoading] = useState<boolean>(false)
+    const [isClient, setIsClient] = useState(false);
+    
+      useEffect(() => {
+        if (typeof window !== "undefined") {
+          setIsClient(true); // We are on the client-side
+        }
+      }, []);
 
     const handleImageChange = async (file: any, type: string): Promise<string | null> => {
         const LogoId = generateRandomString(10);
@@ -101,10 +108,14 @@ const AddStaff = (props: any) => {
 
     
     useEffect(() => {
-        Object.keys(errors).forEach((error: any) => {
-            toast.error(capitalizeFirstLetter(errors[error]));
+        (Object.keys(errors) as (keyof typeof errors)[]).forEach((error) => {
+            const errorMessage = errors[error];
+            if (errorMessage) {
+                toast.error(capitalizeFirstLetter(errorMessage));
+            }
         });
     }, [errors]);
+    
     
     const handleReset = () => {
         resetForm();
@@ -290,7 +301,7 @@ const AddStaff = (props: any) => {
                     </div>
                 </form>
             </div>
-            {window.innerWidth > 768 && (
+            {isClient && window.innerWidth > 768 && (
                 <div className={styles.leftColumn}>
                     <div className={styles.logoContainer}></div>
                     <Image

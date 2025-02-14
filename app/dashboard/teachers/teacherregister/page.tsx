@@ -30,6 +30,13 @@ const TeacherRegistration = () => {
   const classesData = classes.map((item: any) => item.class_Name);
   const [fileValue, setFileValue] = useState(null);
   const [loading, setLoading] = useState<boolean>(false)
+  const [isClient, setIsClient] = useState(false);
+    
+      useEffect(() => {
+        if (typeof window !== "undefined") {
+          setIsClient(true); // We are on the client-side
+        }
+      }, []);
 
   const handleImageChange = async (file: any, type: string): Promise<string | null> => {
     const LogoId = generateRandomString(10);
@@ -329,7 +336,7 @@ const TeacherRegistration = () => {
           </div>
         </form>
       </div>
-      {window.innerWidth > 768 && (
+      {isClient && window.innerWidth > 768 && (
         <div className={styles.leftColumn}>
           <div className={styles.logoContainer}></div>
           <Image

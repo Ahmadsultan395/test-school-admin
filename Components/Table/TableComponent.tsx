@@ -11,11 +11,10 @@ import Icons from "../../Theme/Icons";
 import style from "./table.module.css";
 
 interface StudentTableProps {
-  isDataVisible: () => void
-  data: any
-  columns: any
+  isDataVisible: (item: any) => void; // This allows it to accept a function with the `item` argument.
+  data: any[];
+  columns: any[];
 }
-
 const Tasttable: React.FC<StudentTableProps> = ({ isDataVisible, data, columns }) => {
   const table = useReactTable({
     data,

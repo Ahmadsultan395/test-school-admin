@@ -6,10 +6,14 @@ import Link from "next/link";
 import { useSchoolData } from "../../../../context/school";
 import { useEffect } from "react";
 
+interface Student {
+  gender: "Male" | "Female";
+}
+
 const PieChartCard = () => {
   const { students } = useSchoolData();
-  const maleStudents : any = students.filter(item => item.gender === "Male").length;
-  const femaleStudents : any= students.filter(item => item.gender === "Female").length;
+  const maleStudents : number = students.filter((item:Student) => item.gender === "Male").length;
+  const femaleStudents : number = students.filter((item:Student) => item.gender === "Female").length;
 
   return (
     <div className={styles.doughnutChart}>

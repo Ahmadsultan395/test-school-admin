@@ -13,6 +13,12 @@ import Icons from "@/Theme/Icons";
 import styles from "./guardians.module.css";
 import GuardianCard from "@/Components/DetailCards/GuardianCard";
 
+interface StudentTableProps {
+  isDataVisible: (item: any) => void; // Accepts an item
+  data: any[];
+  columns: any[];
+}
+
 const GuardiansPage: React.FC = () => {
   const router = useRouter();
   const { guardians } = useSchoolData()
@@ -100,6 +106,9 @@ const GuardiansPage: React.FC = () => {
     setGuardianInfo(item)
 
   };
+
+ 
+  
   return (
     <div>
       {infoCard ? (
@@ -158,7 +167,9 @@ const GuardiansPage: React.FC = () => {
               </div>
               <div className={styles.searchButton}>Search</div>
             </div>
-            <Tasttable isDataVisible={guardianDeatils} data={guardianMap} columns={columns} />
+            <Tasttable isDataVisible={(item: any) => guardianDeatils(item)} data={guardianMap} columns={columns} />
+
+
           </div>
         </div>
       ) : (

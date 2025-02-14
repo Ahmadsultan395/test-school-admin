@@ -4,7 +4,12 @@ import React, { useEffect, useState } from "react";
 import styles from "./StudentCard.module.css"; // Import your CSS module
 import Image from "next/image";
 import Images from "../../Theme/Images";
-const GuardianCard: React.FC = ({item}:any) => {
+
+interface GuardianCardProps {
+  item: any;  // Or, if you know the structure of 'item', replace 'any' with a more specific type
+}
+
+const GuardianCard: React.FC<GuardianCardProps> = ({item}:any) => {
   return (
     <div className={styles.card}>
       <div className={styles.profileDataDiv}>

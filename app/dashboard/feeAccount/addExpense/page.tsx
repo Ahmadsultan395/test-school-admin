@@ -24,6 +24,13 @@ const AddExpense = (props: any) => {
     const router = useRouter();
     const { addExpense } = useSchoolData()
     const [loading, setLoading] = useState<boolean>(false)
+    const [isClient, setIsClient] = useState(false);
+    
+      useEffect(() => {
+        if (typeof window !== "undefined") {
+          setIsClient(true); // We are on the client-side
+        }
+      }, []);
 
     const expenseTypes = ["Salary", "Transport", "Others"]
     const statusTypes = ["Paid", "Unpaid"]
@@ -252,7 +259,7 @@ const AddExpense = (props: any) => {
                     </div>
                 </form>
             </div>
-            {window.innerWidth > 768 && (
+            {isClient && window.innerWidth > 768 && (
             <div className={styles.leftColumn}>
                 <div className={styles.logoContainer}></div>
                 <Image

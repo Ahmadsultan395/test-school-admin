@@ -8,13 +8,17 @@ import {
   ChartData,
 } from "chart.js";
 import { useSchoolData } from "@/context/school";
+interface Student {
+  gender: "Male" | "Female";
+}
+
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export function PieChart() {
   const { students } = useSchoolData();
-  const maleStudents: any = students.filter(item => item.gender === "Male").length;
-  const femaleStudents: any = students.filter(item => item.gender === "Female").length;
+ const maleStudents: number = students.filter((item: Student) => item.gender === "Male").length;
+const femaleStudents: number = students.filter((item: Student) => item.gender === "Female").length;
   const [data, setData] = useState<ChartData<"doughnut", number[], unknown>>({
     labels: [],
     datasets: [

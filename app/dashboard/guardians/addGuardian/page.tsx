@@ -20,6 +20,13 @@ import { cityOptions, genderTypes, religionData, staffPositionData, stateOptions
 const AddGuardian = (props: any) => {
   const router = useRouter();
   const [routeGuardianData, setRouteGuardianData]: any = useState(null)
+  const [isClient, setIsClient] = useState(false);
+  
+    useEffect(() => {
+      if (typeof window !== "undefined") {
+        setIsClient(true); // We are on the client-side
+      }
+    }, []);
   
   useEffect(() => {
     async function handleSchoolData() {
@@ -271,7 +278,7 @@ const AddGuardian = (props: any) => {
           </div>
         </form>
       </div>
-      {window.innerWidth > 768 && (
+      {isClient && window.innerWidth > 768 && (
         <div className={styles.leftColumn}>
           <div className={styles.logoContainer}></div>
           <Image

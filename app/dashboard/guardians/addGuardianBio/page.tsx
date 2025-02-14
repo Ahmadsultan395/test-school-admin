@@ -28,6 +28,13 @@ const AddGuardian = (props: any) => {
   const [guardianPicture, setGuardianPicture] = useState<any>(null)
   const [guardianData, setGuardianData] = useState<any>(null)
   const [loading, setLoading] = useState<boolean>(false)
+  const [isClient, setIsClient] = useState(false);
+  
+    useEffect(() => {
+      if (typeof window !== "undefined") {
+        setIsClient(true); // We are on the client-side
+      }
+    }, []);
 
 
   useEffect(() => {
@@ -199,7 +206,7 @@ const AddGuardian = (props: any) => {
           </div>
         </form>
       </div>
-      {window.innerWidth > 768 && (
+      {isClient &&  window.innerWidth > 768 && (
         <div className={styles.leftColumn}>
           <div className={styles.logoContainer}></div>
           <Image

@@ -22,6 +22,13 @@ const AddSubject = (props: any) => {
     const router = useRouter();
     const { addSubject } = useSchoolData();
     const [loading, setLoading] = useState<boolean>(false)
+    const [isClient, setIsClient] = useState(false);
+      
+        useEffect(() => {
+          if (typeof window !== "undefined") {
+            setIsClient(true); // We are on the client-side
+          }
+        }, []);
 
     const {
         values,
@@ -60,11 +67,18 @@ const AddSubject = (props: any) => {
         resetForm();
     };
 
+
     useEffect(() => {
-        Object.keys(errors).forEach((error: any) => {
-            toast.error(capitalizeFirstLetter(errors[error]));
+        (Object.keys(errors) as (keyof typeof errors)[]).forEach((error) => {
+            const errorMessage = errors[error];
+            if (errorMessage) {
+                toast.error(capitalizeFirstLetter(errorMessage));
+            }
         });
     }, [errors]);
+    
+    
+
 
     if (loading) {
         return (
@@ -143,7 +157,7 @@ const AddSubject = (props: any) => {
                     </div>
                 </form>
             </div>
-            {window.innerWidth > 768 && (
+            {isClient && window.innerWidth > 768 && (
                 <div className={styles.leftColumn}>
                     <div className={styles.logoContainer}></div>
                     <Image

@@ -28,6 +28,13 @@ const StudentRegistration = () => {
   const [fileValue, setFileValue] = useState(null);
   const [studentData, setStudentData] = useState<any>(null)
   const [loading, setLoading] = useState<boolean>(false)
+  const [isClient, setIsClient] = useState(false);
+  
+    useEffect(() => {
+      if (typeof window !== "undefined") {
+        setIsClient(true); // We are on the client-side
+      }
+    }, []);
 
   useEffect(() => {
     async function handleSchoolData() {
@@ -280,7 +287,7 @@ const StudentRegistration = () => {
           </div>
         </form>
       </div>
-      {window.innerWidth > 768 && (
+      {isClient && window.innerWidth > 768 && (
         <div className={styles.leftColumn}>
           <div className={styles.logoContainer}></div>
           <Image

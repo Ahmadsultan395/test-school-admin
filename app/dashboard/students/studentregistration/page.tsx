@@ -23,6 +23,13 @@ const StudentRegistration = () => {
   const { classes } = useSchoolData()
   const classesData = classes.map((item: any) => item.class_Name);
   const [routeStudentData, setrouteStudentData]: any = useState(null)
+  const [isClient, setIsClient] = useState(false);
+    
+      useEffect(() => {
+        if (typeof window !== "undefined") {
+          setIsClient(true); // We are on the client-side
+        }
+      }, []);
 
   useEffect(() => {
     async function handleSchoolData() {
@@ -285,7 +292,7 @@ const StudentRegistration = () => {
           </div>
         </form>
       </div>
-      {window.innerWidth > 768 && (
+      {isClient && window.innerWidth > 768 && (
         <div className={styles.leftColumn}>
           <div className={styles.logoContainer}></div>
           <Image

@@ -115,7 +115,7 @@ export const SchoolProvider: FC<SchoolProviderProps> = ({ children }: any) => {
     try {
       const adminUID = school?.adminUID[0];
       const schoolUID = school.school_id;
-      await Expense.add({ adminUID, schoolUID, subjectData });
+      await Expense.add({ adminUID, schoolUID, ...subjectData });
       await getExpense(schoolUID)
       setLoading(false);
     } catch (error: any) {

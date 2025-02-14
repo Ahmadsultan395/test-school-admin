@@ -101,7 +101,7 @@ const TeacherPage: React.FC = () => {
   ];
 
   const [infoCard, setInfoCard] = useState(true);
-  const [teacherInfo, setTeacherInfo] = useState(true);
+  const [teacherInfo, setTeacherInfo] = useState<any | null>(null); 
   const TeacherDeatils = (item: any) => {
     setInfoCard(false);
     setTeacherInfo(item)
